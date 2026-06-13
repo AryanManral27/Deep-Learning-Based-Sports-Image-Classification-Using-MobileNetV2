@@ -1,4 +1,4 @@
-# Deep Learning-Based Sports Image Classification Using MobileNetV2
+## Deep Learning-Based Sports Image Classification Using MobileNetV2
 
 ## Overview
 
@@ -210,7 +210,7 @@ http://localhost:8501
 
 ## DEEP_LEARNING-BASED_SPORTS_IMAGE_CLASSIFICATION.ipynb
 
-The DEEP_LEARNING-BASED_SPORTS_IMAGE_CLASSIFICATION.ipynb notebook contains the complete pipeline
+The **DEEP_LEARNING-BASED_SPORTS_IMAGE_CLASSIFICATION.ipynb** notebook contains the complete pipeline
 for training and evaluating the sports image classification model. It includes dataset loading
 image preprocessing, data augmentation, MobileNetV2 model development, training, and performance
 evaluation. The notebook also provides visualization of test images with actual and predicted
