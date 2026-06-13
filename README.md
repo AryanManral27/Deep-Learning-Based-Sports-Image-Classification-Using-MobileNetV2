@@ -68,10 +68,10 @@ sports-image-classification/
 
 ## Model Architecture
 
-- MobileNetV2 (Pre-trained on ImageNet)
-- GlobalAveragePooling2D
-- Dropout (0.5)
-- Dense Layer with Softmax Activation
+- MobileNetV2 Base Model (Pre-trained on ImageNet)
+- Global Average Pooling Layer for Feature Extraction
+- Dropout Layer (0.5) for Overfitting Prevention
+- Dense Output Layer with Softmax Activation
 
 **Input Image Size:** 224 × 224 × 3
 
@@ -140,13 +140,7 @@ Run:
 python sports-clf-final-predictions.py
 ```
 
-The script generates:
-
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- Classification Report
+The script evaluates the model using Accuracy, Precision, Recall, and F1-Score metrics.
 
 ---
 
@@ -168,10 +162,10 @@ http://localhost:8501
 
 ## How to Use
 
-1. Upload a sports image (JPG, JPEG, PNG).
-2. Click the **Classify Sport** button.
-3. Allow the model to analyze the image.
-4. View the predicted sport category instantly.
+1. Upload a sports image in JPG, JPEG, or PNG format.
+2. Click **Classify Sport** to start the prediction.
+3. The model processes and analyzes the uploaded image.
+4. Instantly view the predicted sport category.
 
 ---
 
@@ -184,10 +178,30 @@ http://localhost:8501
 
 ---
 
+#### Image 1: Upload a Sports Image for Classification
+
+<p align="center">
+  <img width="720" height="350"
+       src="https://github.com/user-attachments/assets/4a828d20-bbc6-487e-b4b9-58c4b8b816ab"
+       alt="Image">
+</p>
+
+---
+
+#### Image 2: Use a Sample Sports Image for Prediction
+
+<p align="center">
+  <img width="720" height="350"
+       src="https://github.com/user-attachments/assets/599fccda-36b1-4b25-8cbf-e1ecd0698d26" 
+       alt="Image">
+</p>
+
+
+---
+
 ## Future Improvements
 
 - Real-Time Video Classification Support
-- Mobile Application Integration  
 - Cloud-Based Deployment and Scalability  
 - Support for Additional Sports Categories 
 - Explainable AI visualizations (Grad-CAM)
