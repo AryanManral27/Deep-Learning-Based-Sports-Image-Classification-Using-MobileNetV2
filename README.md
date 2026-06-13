@@ -1,6 +1,6 @@
 ## Deep Learning-Based Sports Image Classification Using MobileNetV2
 
-## Overview
+### Overview
 
 This project uses Deep Learning and Transfer Learning to classify sports images into 35 different
 sports categories. The model is built using MobileNetV2 and TensorFlow/Keras and is deployed
@@ -10,7 +10,7 @@ Users can upload a sports image, and the model will instantly predict the sport 
 
 ---
 
-## Features
+### Features
 
 ✔ Sports Image Classification Across 35 Categories  
 ✔ MobileNetV2-Based Deep Learning Architecture  
@@ -21,7 +21,7 @@ Users can upload a sports image, and the model will instantly predict the sport 
 
 ---
 
-## Technologies Used
+### Technologies Used
 
 - **Python** – Programming language used for development.
 - **TensorFlow** – Framework for building and training deep learning models.
@@ -34,7 +34,7 @@ Users can upload a sports image, and the model will instantly predict the sport 
 
 ---
 
-## Dataset
+### Dataset
 
 The model is trained on the Kaggle Sports Classification Dataset.
 
@@ -42,7 +42,7 @@ The model is trained on the Kaggle Sports Classification Dataset.
 
 ---
 
-## Project Structure
+### Project Structure
 
 ```text
 sports-image-classification/
@@ -66,7 +66,7 @@ sports-image-classification/
 
 ---
 
-## Model Architecture
+### Model Architecture
 
 - MobileNetV2 Base Model (Pre-trained on ImageNet)
 - Global Average Pooling Layer for Feature Extraction
@@ -77,16 +77,16 @@ sports-image-classification/
 
 ---
 
-## Installation
+### Installation
 
-### Clone the Repository
+#### Clone the Repository
 
 ```bash
 git clone <repository-url>
 cd sports-image-classification
 ```
 
-### Create Virtual Environment
+#### Create Virtual Environment
 
 ```bash
 python -m venv venv
@@ -106,7 +106,7 @@ Linux/Mac:
 source venv/bin/activate
 ```
 
-### Install Dependencies
+#### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 
 ---
 
-## Training the Model
+### Training the Model
 
 Run the training script:
 
@@ -132,7 +132,7 @@ Copy it to the `streamlit/` folder before running the app.
 
 ---
 
-## Model Evaluation
+### Model Evaluation
 
 Run:
 
@@ -144,7 +144,7 @@ The script evaluates the model using Accuracy, Precision, Recall, and F1-Score m
 
 ---
 
-## Running the Streamlit App
+### Running the Streamlit App
 
 Start the application:
 
@@ -160,7 +160,7 @@ http://localhost:8501
 
 ---
 
-## How to Use
+### How to Use
 
 1. Upload a sports image in JPG, JPEG, or PNG format.
 2. Click **Classify Sport** to start the prediction.
@@ -169,7 +169,7 @@ http://localhost:8501
 
 ---
 
-## Results
+### Results
 
 ✔ Achieved a Test Accuracy of 91%  
 ✔ Lightweight Model Size (~15 MB)  
@@ -199,7 +199,7 @@ http://localhost:8501
 
 ---
 
-## Future Improvements
+### Future Improvements
 
 - Real-Time Video Classification Support
 - Cloud-Based Deployment and Scalability  
