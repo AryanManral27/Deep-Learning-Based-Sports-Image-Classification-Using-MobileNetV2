@@ -12,12 +12,12 @@ Users can upload a sports image, and the model will instantly predict the sport 
 
 ## Features
 
-✔ Sports Image Classification Across 35 Categories 
-✔ Transfer Learning Using MobileNetV2 Architecture  
+✔ Sports Image Classification Across 35 Categories  
+✔ MobileNetV2-Based Deep Learning Architecture  
 ✔ Image Preprocessing and Data Augmentation Techniques  
 ✔ Real-Time Prediction Through Streamlit Deployment  
 ✔ User-Friendly and Interactive Web Interface  
-✔ Fast, Accurate, and Lightweight Deep Learning Model  
+✔ Fast, Accurate, and Lightweight Deep Learning Model
 
 ---
 
@@ -182,7 +182,7 @@ http://localhost:8501
 
 <p align="center">
   <img width="720" height="350"
-       src="https://github.com/user-attachments/assets/4a828d20-bbc6-487e-b4b9-58c4b8b816ab"
+       src="https://github.com/user-attachments/assets/0d383f84-0909-47e5-b0fe-c5da2d52649e"
        alt="Image">
 </p>
 
@@ -192,7 +192,7 @@ http://localhost:8501
 
 <p align="center">
   <img width="720" height="350"
-       src="https://github.com/user-attachments/assets/599fccda-36b1-4b25-8cbf-e1ecd0698d26" 
+       src="https://github.com/user-attachments/assets/4d686eb7-f351-4a11-a681-d80aeb535509"
        alt="Image">
 </p>
 
