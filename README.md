@@ -208,7 +208,7 @@ http://localhost:8501
 
 ---
 
-## DEEP_LEARNING-BASED_SPORTS_IMAGE_CLASSIFICATION.ipynb
+### DEEP_LEARNING-BASED_SPORTS_IMAGE_CLASSIFICATION.ipynb
 
 The **DEEP_LEARNING-BASED_SPORTS_IMAGE_CLASSIFICATION.ipynb** notebook contains the complete pipeline
 for training and evaluating the sports image classification model. It includes dataset loading
